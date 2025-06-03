@@ -5,7 +5,7 @@
 
 ---
 
-![OSS Network Visualization](images/network_overview.png) 
+![OSS Network Visualization](images/1.png) 
 
 ## Overview
 
