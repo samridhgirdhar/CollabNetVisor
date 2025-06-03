@@ -35,7 +35,7 @@ Open-source projects are the backbone of global digital infrastructure, yet thei
 
 | Collaboration Network Overview   | Community Detection (Louvain)       | Temporal Community Evolution       |
 | -------------------------------- | ----------------------------------- | ---------------------------------- |
-| ![](images/network_overview.png) | ![](images/louvain_communities.png) | ![](images/temporal_evolution.gif) |
+| ![](images/network.png) | ![](images/communities.png) | ![](images/temporal_evolution.gif) |
 
 
 ---
