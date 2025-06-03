@@ -1,0 +1,2129 @@
+{
+  "edges_df": "                    source            target                 timestamp\n17                 yanamis         mroeschke 2025-04-28 16:45:32+00:00\n16         dependabot[bot]         mroeschke 2025-04-28 17:41:30+00:00\n15                 theavey         mroeschke 2025-04-29 16:20:23+00:00\n14      danielpintosalazar         mroeschke 2025-04-30 16:21:01+00:00\n54         dependabot[bot]       thomasjpfan 2025-05-01 20:59:40+00:00\n57               lucyleeow           virchan 2025-05-02 05:41:49+00:00\n58               lucyleeow       thomasjpfan 2025-05-03 02:56:48+00:00\n12                  chilin    datapythonista 2025-05-03 11:10:21+00:00\n13                  chilin    datapythonista 2025-05-03 20:00:06+00:00\n11              rhshadrach          web-flow 2025-05-03 20:00:53+00:00\n0                   chilin          web-flow 2025-05-03 20:00:53+00:00\n9          dependabot[bot]          web-flow 2025-05-03 20:00:53+00:00\n8                mroeschke          web-flow 2025-05-03 20:00:53+00:00\n7                  eicchen          web-flow 2025-05-03 20:00:53+00:00\n6             thomasheavey          web-flow 2025-05-03 20:00:53+00:00\n5                  theavey          web-flow 2025-05-03 20:00:53+00:00\n4                  theavey      thomasheavey 2025-05-03 20:00:53+00:00\n3                mroeschke          web-flow 2025-05-03 20:00:53+00:00\n1       danielpintosalazar          web-flow 2025-05-03 20:00:53+00:00\n10                quangngd          web-flow 2025-05-03 20:00:53+00:00\n2                mroeschke          web-flow 2025-05-03 20:00:53+00:00\n55         dependabot[bot]       adrinjalali 2025-05-05 07:59:29+00:00\n56         dependabot[bot]       adrinjalali 2025-05-05 08:15:06+00:00\n51        scikit-learn-bot           betatim 2025-05-05 08:19:54+00:00\n50        scikit-learn-bot           betatim 2025-05-05 08:20:58+00:00\n49                 ogrisel        jeremiedbb 2025-05-05 10:23:31+00:00\n53        scikit-learn-bot           ogrisel 2025-05-05 12:39:04+00:00\n52        scikit-learn-bot           ogrisel 2025-05-05 12:39:53+00:00\n48        scikit-learn-bot          web-flow 2025-05-05 15:56:51+00:00\n47             lockfilebot          web-flow 2025-05-05 15:56:51+00:00\n46             lockfilebot  scikit-learn-bot 2025-05-05 15:56:51+00:00\n45        scikit-learn-bot          web-flow 2025-05-05 15:56:51+00:00\n44             lockfilebot          web-flow 2025-05-05 15:56:51+00:00\n43             lockfilebot  scikit-learn-bot 2025-05-05 15:56:51+00:00\n42         dependabot[bot]          web-flow 2025-05-05 15:56:51+00:00\n41             adrinjalali          web-flow 2025-05-05 15:56:51+00:00\n40             adrinjalali   dependabot[bot] 2025-05-05 15:56:51+00:00\n39              jeremiedbb          web-flow 2025-05-05 15:56:51+00:00\n34           oliviergrisel          web-flow 2025-05-05 15:56:51+00:00\n37               lucyleeow          web-flow 2025-05-05 15:56:51+00:00\n18      christianlorentzen      mohamedyaich 2025-05-05 15:56:51+00:00\n19      christianlorentzen          web-flow 2025-05-05 15:56:51+00:00\n20      christianlorentzen            yaichm 2025-05-05 15:56:51+00:00\n21            mohamedyaich          web-flow 2025-05-05 15:56:51+00:00\n22            mohamedyaich            yaichm 2025-05-05 15:56:51+00:00\n23                web-flow            yaichm 2025-05-05 15:56:51+00:00\n24  j\u00e9r\u00e9mieduboisberranger       lockfilebot 2025-05-05 15:56:51+00:00\n25  j\u00e9r\u00e9mieduboisberranger  scikit-learn-bot 2025-05-05 15:56:51+00:00\n26  j\u00e9r\u00e9mieduboisberranger          web-flow 2025-05-05 15:56:51+00:00\n27             lockfilebot  scikit-learn-bot 2025-05-05 15:56:51+00:00\n28             lockfilebot          web-flow 2025-05-05 15:56:51+00:00\n30             lockfilebot     oliviergrisel 2025-05-05 15:56:51+00:00\n31             lockfilebot  scikit-learn-bot 2025-05-05 15:56:51+00:00\n32             lockfilebot          web-flow 2025-05-05 15:56:51+00:00\n33           oliviergrisel  scikit-learn-bot 2025-05-05 15:56:51+00:00\n35        scikit-learn-bot          web-flow 2025-05-05 15:56:51+00:00\n36               lucyleeow          web-flow 2025-05-05 15:56:51+00:00\n38                 ogrisel          web-flow 2025-05-05 15:56:51+00:00\n29        scikit-learn-bot          web-flow 2025-05-05 15:56:51+00:00",
+  "metrics": {
+    "yanamis": {
+      "degree": 1,
+      "weighted_degree": 1,
+      "betweenness": 0.0,
+      "closeness": 0.3472222222222222,
+      "eigenvector": 0.019876022104516524,
+      "pagerank": 0.01299423013215361,
+      "coreness": 1,
+      "clustering": 0,
+      "effective_size": 1.0,
+      "constraint": 1.0,
+      "role": 4,
+      "structural_role": "Peripheral",
+      "constraint_inv": 0.0,
+      "influencer_score": 0.7999999999999999,
+      "bridge_score": 0.3,
+      "degree_norm": 0.03333333333333333,
+      "betweenness_norm": 0.0,
+      "eigenvector_norm": 0.033415160585699204,
+      "closeness_norm": 0.41666666666666663
+    },
+    "mroeschke": {
+      "degree": 7,
+      "weighted_degree": 7,
+      "betweenness": 0.0977777777777778,
+      "closeness": 0.5208333333333334,
+      "eigenvector": 0.20591936212736406,
+      "pagerank": 0.059500867457534246,
+      "coreness": 2,
+      "clustering": 0.11754049333617389,
+      "effective_size": 3.8,
+      "constraint": 0.34591111111111117,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.6540888888888888,
+      "influencer_score": 0.9999999999999999,
+      "bridge_score": 0.8609645186658146,
+      "degree_norm": 0.23333333333333334,
+      "betweenness_norm": 0.11525867714472825,
+      "eigenvector_norm": 0.3461874069674662,
+      "closeness_norm": 0.625
+    },
+    "dependabot[bot]": {
+      "degree": 7,
+      "weighted_degree": 7,
+      "betweenness": 0.05777777777777779,
+      "closeness": 0.5102040816326531,
+      "eigenvector": 0.1680978749189041,
+      "pagerank": 0.0558283601150845,
+      "coreness": 2,
+      "clustering": 0.15142671606934496,
+      "effective_size": 3.0,
+      "constraint": 0.3809375,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.6190625000000001,
+      "influencer_score": 0.8599195981862815,
+      "bridge_score": 0.6766543715428328,
+      "degree_norm": 0.23333333333333334,
+      "betweenness_norm": 0.06810740013097578,
+      "eigenvector_norm": 0.28260269861812926,
+      "closeness_norm": 0.6122448979591837
+    },
+    "theavey": {
+      "degree": 3,
+      "weighted_degree": 3,
+      "betweenness": 0.0661111111111111,
+      "closeness": 0.49019607843137253,
+      "eigenvector": 0.0836117178493568,
+      "pagerank": 0.028159252392894445,
+      "coreness": 2,
+      "clustering": 0.20352079752561733,
+      "effective_size": 1.6666666666666667,
+      "constraint": 0.566111111111111,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.433888888888889,
+      "influencer_score": 0.5385319663104831,
+      "bridge_score": 0.6395649728635269,
+      "degree_norm": 0.1,
+      "betweenness_norm": 0.07793058284217419,
+      "eigenvector_norm": 0.1405663046705688,
+      "closeness_norm": 0.588235294117647
+    },
+    "danielpintosalazar": {
+      "degree": 2,
+      "weighted_degree": 2,
+      "betweenness": 0.05666666666666667,
+      "closeness": 0.4807692307692308,
+      "eigenvector": 0.07729085891033892,
+      "pagerank": 0.019536256553482765,
+      "coreness": 2,
+      "clustering": 0.360562392576852,
+      "effective_size": 1.0,
+      "constraint": 0.635625,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.364375,
+      "influencer_score": 0.4468411121301906,
+      "bridge_score": 0.5329619640451262,
+      "degree_norm": 0.06666666666666667,
+      "betweenness_norm": 0.06679764243614932,
+      "eigenvector_norm": 0.1299398063010163,
+      "closeness_norm": 0.5769230769230769
+    },
+    "thomasjpfan": {
+      "degree": 2,
+      "weighted_degree": 2,
+      "betweenness": 0.02,
+      "closeness": 0.36231884057971014,
+      "eigenvector": 0.027673610955726895,
+      "pagerank": 0.0210270282585482,
+      "coreness": 2,
+      "clustering": 0,
+      "effective_size": 2.0,
+      "constraint": 0.5,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.5,
+      "influencer_score": 0.3166133494701888,
+      "bridge_score": 0.5318181818181817,
+      "degree_norm": 0.06666666666666667,
+      "betweenness_norm": 0.023575638506876228,
+      "eigenvector_norm": 0.04652430698704298,
+      "closeness_norm": 0.43478260869565216
+    },
+    "lucyleeow": {
+      "degree": 4,
+      "weighted_degree": 4,
+      "betweenness": 0.10888888888888891,
+      "closeness": 0.5,
+      "eigenvector": 0.11860591940999339,
+      "pagerank": 0.03990097353195269,
+      "coreness": 2,
+      "clustering": 0,
+      "effective_size": 3.0,
+      "constraint": 0.3333333333333333,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.6666666666666667,
+      "influencer_score": 0.7209716960359994,
+      "bridge_score": 0.9000000000000001,
+      "degree_norm": 0.13333333333333333,
+      "betweenness_norm": 0.1283562540929928,
+      "eigenvector_norm": 0.19939783839336955,
+      "closeness_norm": 0.6
+    },
+    "virchan": {
+      "degree": 1,
+      "weighted_degree": 1,
+      "betweenness": 0.0,
+      "closeness": 0.33783783783783783,
+      "eigenvector": 0.011448204218565822,
+      "pagerank": 0.014247952341656628,
+      "coreness": 1,
+      "clustering": 0,
+      "effective_size": 1.0,
+      "constraint": 1.0,
+      "role": 4,
+      "structural_role": "Peripheral",
+      "constraint_inv": 0.0,
+      "influencer_score": 0.1475047566631406,
+      "bridge_score": 0.3,
+      "degree_norm": 0.03333333333333333,
+      "betweenness_norm": 0.0,
+      "eigenvector_norm": 0.01924648606092709,
+      "closeness_norm": 0.4054054054054054
+    },
+    "chilin": {
+      "degree": 3,
+      "weighted_degree": 3,
+      "betweenness": 0.08,
+      "closeness": 0.4807692307692308,
+      "eigenvector": 0.05963738929713869,
+      "pagerank": 0.03322034518205422,
+      "coreness": 1,
+      "clustering": 0,
+      "effective_size": 2.0,
+      "constraint": 0.5,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.5,
+      "influencer_score": 0.4881488451516368,
+      "bridge_score": 0.7438775510204081,
+      "degree_norm": 0.1,
+      "betweenness_norm": 0.09430255402750491,
+      "eigenvector_norm": 0.10026115536583732,
+      "closeness_norm": 0.5769230769230769
+    },
+    "datapythonista": {
+      "degree": 2,
+      "weighted_degree": 2,
+      "betweenness": 0.0,
+      "closeness": 0.32894736842105265,
+      "eigenvector": 0.011512761136979143,
+      "pagerank": 0.02459195457760333,
+      "coreness": 1,
+      "clustering": 0,
+      "effective_size": 1.0,
+      "constraint": 1.0,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.0,
+      "influencer_score": 0.21806666734231062,
+      "bridge_score": 0.3,
+      "degree_norm": 0.06666666666666667,
+      "betweenness_norm": 0.0,
+      "eigenvector_norm": 0.019355017827714007,
+      "closeness_norm": 0.39473684210526316
+    },
+    "rhshadrach": {
+      "degree": 1,
+      "weighted_degree": 1,
+      "betweenness": 0.0,
+      "closeness": 0.46296296296296297,
+      "eigenvector": 0.05741483680582239,
+      "pagerank": 0.012311257190559925,
+      "coreness": 1,
+      "clustering": 0,
+      "effective_size": 1.0,
+      "constraint": 1.0,
+      "role": 4,
+      "structural_role": "Peripheral",
+      "constraint_inv": 0.0,
+      "influencer_score": 0.19680154545521578,
+      "bridge_score": 0.3,
+      "degree_norm": 0.03333333333333333,
+      "betweenness_norm": 0.0,
+      "eigenvector_norm": 0.09652464571531706,
+      "closeness_norm": 0.5555555555555556
+    },
+    "web-flow": {
+      "degree": 30,
+      "weighted_degree": 30,
+      "betweenness": 0.8483333333333334,
+      "closeness": 0.8333333333333334,
+      "eigenvector": 0.5948204873515686,
+      "pagerank": 0.23089006839486073,
+      "coreness": 3,
+      "clustering": 0.03140571649230513,
+      "effective_size": 18.5,
+      "constraint": 0.11306736111111115,
+      "role": 0,
+      "structural_role": "Hub",
+      "constraint_inv": 0.8869326388888888,
+      "influencer_score": 0.9999999999999999,
+      "bridge_score": 0.9566580767189751,
+      "degree_norm": 1.0,
+      "betweenness_norm": 1.0,
+      "eigenvector_norm": 1.0,
+      "closeness_norm": 1.0
+    },
+    "eicchen": {
+      "degree": 1,
+      "weighted_degree": 1,
+      "betweenness": 0.0,
+      "closeness": 0.46296296296296297,
+      "eigenvector": 0.05741483680582239,
+      "pagerank": 0.012311257190559925,
+      "coreness": 1,
+      "clustering": 0,
+      "effective_size": 1.0,
+      "constraint": 1.0,
+      "role": 4,
+      "structural_role": "Peripheral",
+      "constraint_inv": 0.0,
+      "influencer_score": 0.07646200024993058,
+      "bridge_score": 0.3,
+      "degree_norm": 0.03333333333333333,
+      "betweenness_norm": 0.0,
+      "eigenvector_norm": 0.09652464571531706,
+      "closeness_norm": 0.5555555555555556
+    },
+    "thomasheavey": {
+      "degree": 2,
+      "weighted_degree": 2,
+      "betweenness": 0.0,
+      "closeness": 0.4716981132075472,
+      "eigenvector": 0.06548535216812616,
+      "pagerank": 0.02028970686270438,
+      "coreness": 2,
+      "clustering": 0.24999999999999997,
+      "effective_size": 1.0,
+      "constraint": 0.7200694444444444,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.27993055555555557,
+      "influencer_score": 0.12843170068763146,
+      "bridge_score": 0.30897916666666664,
+      "degree_norm": 0.06666666666666667,
+      "betweenness_norm": 0.0,
+      "eigenvector_norm": 0.11009263056775154,
+      "closeness_norm": 0.5660377358490566
+    },
+    "quangngd": {
+      "degree": 1,
+      "weighted_degree": 1,
+      "betweenness": 0.0,
+      "closeness": 0.46296296296296297,
+      "eigenvector": 0.05741483680582239,
+      "pagerank": 0.012311257190559925,
+      "coreness": 1,
+      "clustering": 0,
+      "effective_size": 1.0,
+      "constraint": 1.0,
+      "role": 4,
+      "structural_role": "Peripheral",
+      "constraint_inv": 0.0,
+      "influencer_score": 0.07646200024993058,
+      "bridge_score": 0.3,
+      "degree_norm": 0.03333333333333333,
+      "betweenness_norm": 0.0,
+      "eigenvector_norm": 0.09652464571531706,
+      "closeness_norm": 0.5555555555555556
+    },
+    "adrinjalali": {
+      "degree": 4,
+      "weighted_degree": 4,
+      "betweenness": 0.0,
+      "closeness": 0.4807692307692308,
+      "eigenvector": 0.1060910570173056,
+      "pagerank": 0.03264848494123464,
+      "coreness": 2,
+      "clustering": 0.45428014820803486,
+      "effective_size": 1.0,
+      "constraint": 0.66625,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.33375,
+      "influencer_score": 0.17287007220550282,
+      "bridge_score": 0.2638409555375895,
+      "degree_norm": 0.13333333333333333,
+      "betweenness_norm": 0.0,
+      "eigenvector_norm": 0.17835810849366474,
+      "closeness_norm": 0.5769230769230769
+    },
+    "scikit-learn-bot": {
+      "degree": 14,
+      "weighted_degree": 14,
+      "betweenness": 0.08111111111111112,
+      "closeness": 0.5208333333333334,
+      "eigenvector": 0.47635647264220987,
+      "pagerank": 0.09801246375651189,
+      "coreness": 3,
+      "clustering": 0.20582673679787997,
+      "effective_size": 4.0,
+      "constraint": 0.3747762345679012,
+      "role": 0,
+      "structural_role": "Hub",
+      "constraint_inv": 0.6252237654320988,
+      "influencer_score": 0.520898990491761,
+      "bridge_score": 0.46406403327919815,
+      "degree_norm": 0.4666666666666667,
+      "betweenness_norm": 0.09561231172233137,
+      "eigenvector_norm": 0.800840728878021,
+      "closeness_norm": 0.625
+    },
+    "betatim": {
+      "degree": 2,
+      "weighted_degree": 2,
+      "betweenness": 0.0,
+      "closeness": 0.3472222222222222,
+      "eigenvector": 0.09195934697491602,
+      "pagerank": 0.01767052494575355,
+      "coreness": 1,
+      "clustering": 0,
+      "effective_size": 1.0,
+      "constraint": 1.0,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.0,
+      "influencer_score": 0.1039564819203384,
+      "bridge_score": 0.3,
+      "degree_norm": 0.06666666666666667,
+      "betweenness_norm": 0.0,
+      "eigenvector_norm": 0.15460016749652314,
+      "closeness_norm": 0.41666666666666663
+    },
+    "ogrisel": {
+      "degree": 4,
+      "weighted_degree": 4,
+      "betweenness": 0.0022222222222222222,
+      "closeness": 0.49019607843137253,
+      "eigenvector": 0.15637294742469018,
+      "pagerank": 0.0323678814913076,
+      "coreness": 2,
+      "clustering": 0.24999999999999997,
+      "effective_size": 1.6666666666666667,
+      "constraint": 0.553641975308642,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.446358024691358,
+      "influencer_score": 0.19428413354395774,
+      "bridge_score": 0.35995521356326854,
+      "degree_norm": 0.13333333333333333,
+      "betweenness_norm": 0.002619515389652914,
+      "eigenvector_norm": 0.26289099106343655,
+      "closeness_norm": 0.588235294117647
+    },
+    "jeremiedbb": {
+      "degree": 2,
+      "weighted_degree": 2,
+      "betweenness": 0.0,
+      "closeness": 0.4716981132075472,
+      "eigenvector": 0.07250857716509235,
+      "pagerank": 0.019189365607463597,
+      "coreness": 2,
+      "clustering": 0.24999999999999997,
+      "effective_size": 1.0,
+      "constraint": 0.7200694444444444,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.27993055555555557,
+      "influencer_score": 0.13043039613105176,
+      "bridge_score": 0.30897916666666664,
+      "degree_norm": 0.06666666666666667,
+      "betweenness_norm": 0.0,
+      "eigenvector_norm": 0.12189993234418667,
+      "closeness_norm": 0.5660377358490566
+    },
+    "lockfilebot": {
+      "degree": 10,
+      "weighted_degree": 10,
+      "betweenness": 0.0011111111111111111,
+      "closeness": 0.5,
+      "eigenvector": 0.44176992834662865,
+      "pagerank": 0.0694324177003723,
+      "coreness": 3,
+      "clustering": 0.4312335086613666,
+      "effective_size": 1.5,
+      "constraint": 0.5792881944444445,
+      "role": 0,
+      "structural_role": "Hub",
+      "constraint_inv": 0.42071180555555554,
+      "influencer_score": 0.42941218912304613,
+      "bridge_score": 0.29736739214618724,
+      "degree_norm": 0.3333333333333333,
+      "betweenness_norm": 0.001309757694826457,
+      "eigenvector_norm": 0.7426945401857361,
+      "closeness_norm": 0.6
+    },
+    "oliviergrisel": {
+      "degree": 3,
+      "weighted_degree": 3,
+      "betweenness": 0.1038888888888889,
+      "closeness": 0.49019607843137253,
+      "eigenvector": 0.14603578587252597,
+      "pagerank": 0.024163546533925707,
+      "coreness": 3,
+      "clustering": 0.3968502629920499,
+      "effective_size": 1.0,
+      "constraint": 0.5752469135802468,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.4247530864197532,
+      "influencer_score": 0.23180134102896846,
+      "bridge_score": 0.3573557848148205,
+      "degree_norm": 0.1,
+      "betweenness_norm": 0.12246234446627376,
+      "eigenvector_norm": 0.24551236713911562,
+      "closeness_norm": 0.588235294117647
+    },
+    "christianlorentzen": {
+      "degree": 3,
+      "weighted_degree": 3,
+      "betweenness": 0.0,
+      "closeness": 0.4807692307692308,
+      "eigenvector": 0.07115015042286238,
+      "pagerank": 0.028410333705765164,
+      "coreness": 3,
+      "clustering": 0.24999999999999997,
+      "effective_size": 1.0,
+      "constraint": 0.7338888888888888,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.2661111111111112,
+      "influencer_score": 0.17951344629073956,
+      "bridge_score": 0.30483333333333335,
+      "degree_norm": 0.1,
+      "betweenness_norm": 0.0,
+      "eigenvector_norm": 0.11961617317462889,
+      "closeness_norm": 0.5769230769230769
+    },
+    "mohamedyaich": {
+      "degree": 3,
+      "weighted_degree": 3,
+      "betweenness": 0.0,
+      "closeness": 0.4807692307692308,
+      "eigenvector": 0.07115015042286238,
+      "pagerank": 0.028410333705765164,
+      "coreness": 3,
+      "clustering": 0.24999999999999997,
+      "effective_size": 1.0,
+      "constraint": 0.7338888888888888,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.2661111111111112,
+      "influencer_score": 0.17951344629073956,
+      "bridge_score": 0.30483333333333335,
+      "degree_norm": 0.1,
+      "betweenness_norm": 0.0,
+      "eigenvector_norm": 0.11961617317462889,
+      "closeness_norm": 0.5769230769230769
+    },
+    "yaichm": {
+      "degree": 3,
+      "weighted_degree": 3,
+      "betweenness": 0.0,
+      "closeness": 0.4807692307692308,
+      "eigenvector": 0.07115015042286238,
+      "pagerank": 0.028410333705765164,
+      "coreness": 3,
+      "clustering": 0.24999999999999997,
+      "effective_size": 1.0,
+      "constraint": 0.7338888888888888,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.2661111111111112,
+      "influencer_score": 0.17951344629073956,
+      "bridge_score": 0.30483333333333335,
+      "degree_norm": 0.1,
+      "betweenness_norm": 0.0,
+      "eigenvector_norm": 0.11961617317462889,
+      "closeness_norm": 0.5769230769230769
+    },
+    "j\u00e9r\u00e9mieduboisberranger": {
+      "degree": 3,
+      "weighted_degree": 3,
+      "betweenness": 0.1038888888888889,
+      "closeness": 0.49019607843137253,
+      "eigenvector": 0.14603578587252597,
+      "pagerank": 0.024163546533925707,
+      "coreness": 3,
+      "clustering": 0.3968502629920499,
+      "effective_size": 1.0,
+      "constraint": 0.5752469135802469,
+      "role": 3,
+      "structural_role": "Regular",
+      "constraint_inv": 0.42475308641975307,
+      "influencer_score": 0.23180134102896846,
+      "bridge_score": 0.35735578481482044,
+      "degree_norm": 0.1,
+      "betweenness_norm": 0.12246234446627376,
+      "eigenvector_norm": 0.24551236713911562,
+      "closeness_norm": 0.588235294117647
+    }
+  },
+  "network_metrics": {
+    "n_nodes": 26,
+    "n_edges": 41,
+    "density": 0.12615384615384614,
+    "components": 1,
+    "largest_cc_size": 26,
+    "avg_clustering": 0.4722672064777328,
+    "avg_path_length": 2.187692307692308,
+    "diameter": 4,
+    "degree_assortativity": -0.37292787110196324,
+    "power_law_alpha": 4.536013132472075,
+    "power_law_xmin": 3.0
+  },
+  "communities": {
+    "louvain": {
+      "yanamis": 0,
+      "mroeschke": 0,
+      "dependabot[bot]": 1,
+      "theavey": 0,
+      "danielpintosalazar": 0,
+      "thomasjpfan": 1,
+      "lucyleeow": 1,
+      "virchan": 1,
+      "chilin": 4,
+      "datapythonista": 4,
+      "rhshadrach": 0,
+      "web-flow": 0,
+      "eicchen": 0,
+      "thomasheavey": 0,
+      "quangngd": 0,
+      "adrinjalali": 1,
+      "scikit-learn-bot": 2,
+      "betatim": 2,
+      "ogrisel": 2,
+      "jeremiedbb": 2,
+      "lockfilebot": 2,
+      "oliviergrisel": 2,
+      "christianlorentzen": 3,
+      "mohamedyaich": 3,
+      "yaichm": 3,
+      "j\u00e9r\u00e9mieduboisberranger": 2
+    },
+    "label_propagation": {
+      "jeremiedbb": 0,
+      "eicchen": 0,
+      "j\u00e9r\u00e9mieduboisberranger": 0,
+      "betatim": 0,
+      "christianlorentzen": 0,
+      "ogrisel": 0,
+      "rhshadrach": 0,
+      "thomasheavey": 0,
+      "danielpintosalazar": 0,
+      "theavey": 0,
+      "web-flow": 0,
+      "yanamis": 0,
+      "oliviergrisel": 0,
+      "scikit-learn-bot": 0,
+      "quangngd": 0,
+      "mroeschke": 0,
+      "mohamedyaich": 0,
+      "adrinjalali": 0,
+      "lockfilebot": 0,
+      "yaichm": 0,
+      "dependabot[bot]": 0,
+      "thomasjpfan": 1,
+      "virchan": 1,
+      "lucyleeow": 1,
+      "chilin": 2,
+      "datapythonista": 2
+    },
+    "girvan_newman": {
+      "jeremiedbb": 0,
+      "eicchen": 0,
+      "j\u00e9r\u00e9mieduboisberranger": 0,
+      "chilin": 0,
+      "christianlorentzen": 0,
+      "betatim": 0,
+      "ogrisel": 0,
+      "rhshadrach": 0,
+      "thomasheavey": 0,
+      "danielpintosalazar": 0,
+      "theavey": 0,
+      "web-flow": 0,
+      "yanamis": 0,
+      "datapythonista": 0,
+      "oliviergrisel": 0,
+      "scikit-learn-bot": 0,
+      "quangngd": 0,
+      "mroeschke": 0,
+      "mohamedyaich": 0,
+      "adrinjalali": 0,
+      "lockfilebot": 0,
+      "yaichm": 0,
+      "dependabot[bot]": 0,
+      "thomasjpfan": 1,
+      "virchan": 1,
+      "lucyleeow": 1
+    },
+    "spectral": {
+      "yanamis": 1,
+      "mroeschke": 1,
+      "dependabot[bot]": 2,
+      "theavey": 5,
+      "danielpintosalazar": 1,
+      "thomasjpfan": 7,
+      "lucyleeow": 7,
+      "virchan": 7,
+      "chilin": 4,
+      "datapythonista": 4,
+      "rhshadrach": 5,
+      "web-flow": 5,
+      "eicchen": 5,
+      "thomasheavey": 5,
+      "quangngd": 5,
+      "adrinjalali": 2,
+      "scikit-learn-bot": 6,
+      "betatim": 6,
+      "ogrisel": 0,
+      "jeremiedbb": 0,
+      "lockfilebot": 6,
+      "oliviergrisel": 6,
+      "christianlorentzen": 3,
+      "mohamedyaich": 3,
+      "yaichm": 3,
+      "j\u00e9r\u00e9mieduboisberranger": 6
+    },
+    "infomap": {
+      "yanamis": 0,
+      "mroeschke": 0,
+      "dependabot[bot]": 0,
+      "theavey": 0,
+      "danielpintosalazar": 0,
+      "rhshadrach": 0,
+      "web-flow": 0,
+      "eicchen": 0,
+      "thomasheavey": 0,
+      "quangngd": 0,
+      "adrinjalali": 0,
+      "ogrisel": 0,
+      "jeremiedbb": 0,
+      "scikit-learn-bot": 1,
+      "betatim": 1,
+      "lockfilebot": 1,
+      "oliviergrisel": 1,
+      "j\u00e9r\u00e9mieduboisberranger": 1,
+      "thomasjpfan": 2,
+      "lucyleeow": 2,
+      "virchan": 2,
+      "christianlorentzen": 3,
+      "mohamedyaich": 3,
+      "yaichm": 3,
+      "chilin": 4,
+      "datapythonista": 4
+    }
+  },
+  "community_evaluations": {
+    "louvain": {
+      "communities": 5,
+      "modularity": 0.32706118931341566,
+      "internal_density": 0.6173015873015874,
+      "avg_internal_degree": 1.8660317460317462,
+      "conductance": 0.33232323232323224
+    },
+    "label_propagation": {
+      "communities": 3,
+      "modularity": 0.11993679977018092,
+      "internal_density": 0.611111111111111,
+      "avg_internal_degree": 1.888888888888889,
+      "conductance": 0.23592085235920854
+    },
+    "girvan_newman": {
+      "communities": 2,
+      "modularity": 0.06075840275782814,
+      "internal_density": 0.40645586297760206,
+      "avg_internal_degree": 2.2753623188405796,
+      "conductance": 0.17982456140350878
+    },
+    "spectral": {
+      "communities": 8,
+      "modularity": 0.2846883079574835,
+      "internal_density": 0.7916666666666666,
+      "avg_internal_degree": 1.5083333333333333,
+      "conductance": 0.4540266106442577
+    },
+    "infomap": {
+      "communities": 5,
+      "modularity": 0.2898592358517668,
+      "internal_density": 0.6994871794871795,
+      "avg_internal_degree": 1.9005128205128201,
+      "conductance": 0.30563204005006256
+    }
+  },
+  "richclub": {
+    "1": 0.9714285714285714,
+    "2": 0.9583333333333333,
+    "3": 1.0,
+    "4": 0.6666666666666666,
+    "5": 1.0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "15": 0,
+    "16": 0,
+    "17": 0,
+    "18": 0,
+    "19": 0,
+    "20": 0
+  },
+  "temporal_windows": [
+    {
+      "window": "Window 1",
+      "start_time": "2025-04-28 16:45:32+00:00",
+      "end_time": "2025-04-29 20:37:25.166666666+00:00",
+      "graph": "Graph with 4 nodes and 3 edges",
+      "n_nodes": 4,
+      "n_edges": 3,
+      "density": 0.5,
+      "avg_clustering": 0.0,
+      "components": 1,
+      "largest_cc_size": 4,
+      "top_node": "mroeschke",
+      "top_centrality": 0.707106878039843,
+      "communities": 1,
+      "modularity": 0.0
+    },
+    {
+      "window": "Window 2",
+      "start_time": "2025-04-29 20:37:25.166666666+00:00",
+      "end_time": "2025-05-01 00:29:18.333333332+00:00",
+      "graph": "Graph with 2 nodes and 1 edges",
+      "n_nodes": 2,
+      "n_edges": 1,
+      "density": 1.0,
+      "avg_clustering": 0.0,
+      "components": 1,
+      "largest_cc_size": 2,
+      "top_node": "danielpintosalazar",
+      "top_centrality": 0.7071067811865475,
+      "communities": 1,
+      "modularity": 0.0
+    },
+    {
+      "window": "Window 3",
+      "start_time": "2025-05-01 00:29:18.333333332+00:00",
+      "end_time": "2025-05-02 04:21:11.499999998+00:00",
+      "graph": "Graph with 2 nodes and 1 edges",
+      "n_nodes": 2,
+      "n_edges": 1,
+      "density": 1.0,
+      "avg_clustering": 0.0,
+      "components": 1,
+      "largest_cc_size": 2,
+      "top_node": "dependabot[bot]",
+      "top_centrality": 0.7071067811865475,
+      "communities": 1,
+      "modularity": 0.0
+    },
+    {
+      "window": "Window 4",
+      "start_time": "2025-05-02 04:21:11.499999998+00:00",
+      "end_time": "2025-05-03 08:13:04.666666664+00:00",
+      "graph": "Graph with 3 nodes and 2 edges",
+      "n_nodes": 3,
+      "n_edges": 2,
+      "density": 0.6666666666666666,
+      "avg_clustering": 0.0,
+      "components": 1,
+      "largest_cc_size": 3,
+      "top_node": "lucyleeow",
+      "top_centrality": 0.707106690085642,
+      "communities": 1,
+      "modularity": 0.0
+    },
+    {
+      "window": "Window 5",
+      "start_time": "2025-05-03 08:13:04.666666664+00:00",
+      "end_time": "2025-05-04 12:04:57.833333330+00:00",
+      "graph": "Graph with 11 nodes and 11 edges",
+      "n_nodes": 11,
+      "n_edges": 11,
+      "density": 0.2,
+      "avg_clustering": 0.18434343434343434,
+      "components": 1,
+      "largest_cc_size": 11,
+      "top_node": "web-flow",
+      "top_centrality": 0.6805880049483394,
+      "communities": 3,
+      "modularity": 0.2729591836734693
+    },
+    {
+      "window": "Window 6",
+      "start_time": "2025-05-04 12:04:57.833333330+00:00",
+      "end_time": "2025-05-05 15:56:50.999999996+00:00",
+      "graph": "Graph with 6 nodes and 4 edges",
+      "n_nodes": 6,
+      "n_edges": 4,
+      "density": 0.26666666666666666,
+      "avg_clustering": 0.0,
+      "components": 2,
+      "largest_cc_size": 4,
+      "top_node": "scikit-learn-bot",
+      "top_centrality": 0.6015008315175004,
+      "communities": 2,
+      "modularity": 0.40816326530612246
+    }
+  ],
+  "report": "\n    # GitHub Collaboration Network Analysis Report\n    \n    ## Executive Summary\n    \n    Analysis of collaboration across 26 contributors and 41 interactions reveals a \n    1-component network with 5 distinct communities.\n    \n    The network exhibits a **non-scale-free** structure\n    with power law exponent \u03b1=4.54.\n    \n    Contributors show an average clustering coefficient of 0.472, indicating\n    high levels of local clustering.\n    \n    ## Key Influencers\n    \n    **Hub Contributors** (high degree centrality):\n    web-flow (30), scikit-learn-bot (14), lockfilebot (10), mroeschke (7), dependabot[bot] (7)\n    \n    **Bridge Contributors** (high betweenness centrality):\n    web-flow (0.85), lucyleeow (0.11), oliviergrisel (0.10), j\u00e9r\u00e9mieduboisberranger (0.10), mroeschke (0.10)\n    \n    **Core Contributors** (high eigenvector centrality):\n    web-flow (0.59), scikit-learn-bot (0.48), lockfilebot (0.44), mroeschke (0.21), dependabot[bot] (0.17)\n    \n    **Overall Influencers** (composite score):\n    mroeschke (1.00), web-flow (1.00), dependabot[bot] (0.86), yanamis (0.80), lucyleeow (0.72)\n    \n    ## Community Structure\n    \n    The repository collaboration network contains 5 distinct communities,\n    with modularity of 0.327, indicating\n    moderate \n    community structure.\n    \n    ## Rich Club Analysis\n    \n    No significant rich club effect detected, suggesting an egalitarian contribution structure.\n    \n    ## Structural Roles\n    \n    The network contains diverse structural roles:\n    - **Hubs**: 3 contributors\n    - **Bridges**: 0 contributors  \n    - **Peripheral**: 5 contributors\n    - **Core**: 0 contributors\n    - **Regular**: 18 contributors\n    \n    ## Recommendations for Project Governance\n    \n    1. **Community Integration**:\n       - Create cross-community initiatives led by bridge nodes (web-flow, lucyleeow)\n       - Establish regular knowledge-sharing sessions between community representatives\n    \n    2. **Contributor Development**:\n       - Implement mentorship program pairing peripheral nodes with bridge nodes\n       - Create documentation guidelines led by hub contributors (web-flow, scikit-learn-bot)\n    \n    3. **Sustainability Planning**:\n       - Identify potential successors for core contributors\n       - Distribute critical knowledge across multiple contributors\n    \n    4. **Community Growth**:\n       - Target recruitment to strengthen smaller communities\n       - Create \"welcome teams\" with representatives from each community\n    \n    5. **Collaboration Enhancement**:\n       - Implement rotation system for cross-community review\n       - Establish formal knowledge transfer protocols\n    \n    ## Temporal Analysis\n    \n    The network has shown growth \n    in active contributors over the analyzed period.\n    \n    Community structure has strengthened \n    over time, with modularity increasing \n    from 0.000 to 0.408.\n    ",
+  "community_analysis": {
+    "algorithm_comparison": {
+      "louvain": {
+        "count": 26,
+        "sizes": [
+          7,
+          9,
+          15,
+          7,
+          18,
+          11,
+          9,
+          7,
+          6,
+          14,
+          10,
+          8,
+          7,
+          12,
+          8,
+          11,
+          16,
+          7,
+          7,
+          10,
+          11,
+          13,
+          18,
+          12,
+          6,
+          22
+        ],
+        "max_size": 22,
+        "min_size": 6,
+        "avg_size": 10.807692307692308
+      },
+      "infomap": {
+        "count": 26,
+        "sizes": [
+          7,
+          9,
+          15,
+          7,
+          18,
+          10,
+          8,
+          7,
+          12,
+          8,
+          11,
+          7,
+          10,
+          16,
+          7,
+          11,
+          13,
+          22,
+          11,
+          9,
+          7,
+          18,
+          12,
+          6,
+          6,
+          14
+        ],
+        "max_size": 22,
+        "min_size": 6,
+        "avg_size": 10.807692307692308
+      }
+    },
+    "inter_community_connections": {},
+    "top_contributors": {
+      "degree": [
+        [
+          "web-flow",
+          30
+        ],
+        [
+          "scikit-learn-bot",
+          14
+        ],
+        [
+          "lockfilebot",
+          10
+        ],
+        [
+          "mroeschke",
+          7
+        ],
+        [
+          "dependabot[bot]",
+          7
+        ],
+        [
+          "lucyleeow",
+          4
+        ],
+        [
+          "adrinjalali",
+          4
+        ],
+        [
+          "ogrisel",
+          4
+        ],
+        [
+          "theavey",
+          3
+        ],
+        [
+          "chilin",
+          3
+        ]
+      ],
+      "betweenness": [
+        [
+          "web-flow",
+          0.8483333333333334
+        ],
+        [
+          "lucyleeow",
+          0.10888888888888891
+        ],
+        [
+          "oliviergrisel",
+          0.1038888888888889
+        ],
+        [
+          "j\u00e9r\u00e9mieduboisberranger",
+          0.1038888888888889
+        ],
+        [
+          "mroeschke",
+          0.0977777777777778
+        ],
+        [
+          "scikit-learn-bot",
+          0.08111111111111112
+        ],
+        [
+          "chilin",
+          0.08
+        ],
+        [
+          "theavey",
+          0.0661111111111111
+        ],
+        [
+          "dependabot[bot]",
+          0.05777777777777779
+        ],
+        [
+          "danielpintosalazar",
+          0.05666666666666667
+        ]
+      ],
+      "eigenvector": [
+        [
+          "web-flow",
+          0.5948204873515686
+        ],
+        [
+          "scikit-learn-bot",
+          0.47635647264220987
+        ],
+        [
+          "lockfilebot",
+          0.44176992834662865
+        ],
+        [
+          "mroeschke",
+          0.20591936212736406
+        ],
+        [
+          "dependabot[bot]",
+          0.1680978749189041
+        ],
+        [
+          "ogrisel",
+          0.15637294742469018
+        ],
+        [
+          "oliviergrisel",
+          0.14603578587252597
+        ],
+        [
+          "j\u00e9r\u00e9mieduboisberranger",
+          0.14603578587252597
+        ],
+        [
+          "lucyleeow",
+          0.11860591940999339
+        ],
+        [
+          "adrinjalali",
+          0.1060910570173056
+        ]
+      ],
+      "pagerank": [
+        [
+          "web-flow",
+          0.23089006839486073
+        ],
+        [
+          "scikit-learn-bot",
+          0.09801246375651189
+        ],
+        [
+          "lockfilebot",
+          0.0694324177003723
+        ],
+        [
+          "mroeschke",
+          0.059500867457534246
+        ],
+        [
+          "dependabot[bot]",
+          0.0558283601150845
+        ],
+        [
+          "lucyleeow",
+          0.03990097353195269
+        ],
+        [
+          "chilin",
+          0.03322034518205422
+        ],
+        [
+          "adrinjalali",
+          0.03264848494123464
+        ],
+        [
+          "ogrisel",
+          0.0323678814913076
+        ],
+        [
+          "christianlorentzen",
+          0.028410333705765164
+        ]
+      ],
+      "influencer_score": [
+        [
+          "mroeschke",
+          0.9999999999999999
+        ],
+        [
+          "web-flow",
+          0.9999999999999999
+        ],
+        [
+          "dependabot[bot]",
+          0.8599195981862815
+        ],
+        [
+          "yanamis",
+          0.7999999999999999
+        ],
+        [
+          "lucyleeow",
+          0.7209716960359994
+        ],
+        [
+          "theavey",
+          0.5385319663104831
+        ],
+        [
+          "scikit-learn-bot",
+          0.520898990491761
+        ],
+        [
+          "chilin",
+          0.4881488451516368
+        ],
+        [
+          "danielpintosalazar",
+          0.4468411121301906
+        ],
+        [
+          "lockfilebot",
+          0.42941218912304613
+        ]
+      ],
+      "bridge_score": [
+        [
+          "web-flow",
+          0.9566580767189751
+        ],
+        [
+          "lucyleeow",
+          0.9000000000000001
+        ],
+        [
+          "mroeschke",
+          0.8609645186658146
+        ],
+        [
+          "chilin",
+          0.7438775510204081
+        ],
+        [
+          "dependabot[bot]",
+          0.6766543715428328
+        ],
+        [
+          "theavey",
+          0.6395649728635269
+        ],
+        [
+          "danielpintosalazar",
+          0.5329619640451262
+        ],
+        [
+          "thomasjpfan",
+          0.5318181818181817
+        ],
+        [
+          "scikit-learn-bot",
+          0.46406403327919815
+        ],
+        [
+          "ogrisel",
+          0.35995521356326854
+        ]
+      ]
+    },
+    "community_profiles": {
+      "0": {
+        "size": 7,
+        "density": 0,
+        "top_node": "yanamis",
+        "avg_degree": 1.0,
+        "bridges": [
+          [
+            "yanamis",
+            1
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "1": {
+        "size": 9,
+        "density": 0,
+        "top_node": "mroeschke",
+        "avg_degree": 7.0,
+        "bridges": [
+          [
+            "mroeschke",
+            5
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "2": {
+        "size": 15,
+        "density": 0,
+        "top_node": "dependabot[bot]",
+        "avg_degree": 7.0,
+        "bridges": [
+          [
+            "dependabot[bot]",
+            4
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "3": {
+        "size": 7,
+        "density": 0,
+        "top_node": "theavey",
+        "avg_degree": 3.0,
+        "bridges": [
+          [
+            "theavey",
+            3
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "4": {
+        "size": 18,
+        "density": 0,
+        "top_node": "danielpintosalazar",
+        "avg_degree": 2.0,
+        "bridges": [
+          [
+            "danielpintosalazar",
+            2
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "5": {
+        "size": 11,
+        "density": 0,
+        "top_node": "thomasjpfan",
+        "avg_degree": 2.0,
+        "bridges": [
+          [
+            "thomasjpfan",
+            2
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "6": {
+        "size": 9,
+        "density": 0,
+        "top_node": "lucyleeow",
+        "avg_degree": 4.0,
+        "bridges": [
+          [
+            "lucyleeow",
+            3
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "7": {
+        "size": 7,
+        "density": 0,
+        "top_node": "virchan",
+        "avg_degree": 1.0,
+        "bridges": [
+          [
+            "virchan",
+            1
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "8": {
+        "size": 6,
+        "density": 0,
+        "top_node": "chilin",
+        "avg_degree": 3.0,
+        "bridges": [
+          [
+            "chilin",
+            2
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "9": {
+        "size": 14,
+        "density": 0,
+        "top_node": "datapythonista",
+        "avg_degree": 2.0,
+        "bridges": [
+          [
+            "datapythonista",
+            1
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "10": {
+        "size": 10,
+        "density": 0,
+        "top_node": "rhshadrach",
+        "avg_degree": 1.0,
+        "bridges": [
+          [
+            "rhshadrach",
+            1
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "11": {
+        "size": 8,
+        "density": 0,
+        "top_node": "web-flow",
+        "avg_degree": 30.0,
+        "bridges": [
+          [
+            "web-flow",
+            20
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "12": {
+        "size": 7,
+        "density": 0,
+        "top_node": "eicchen",
+        "avg_degree": 1.0,
+        "bridges": [
+          [
+            "eicchen",
+            1
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "13": {
+        "size": 12,
+        "density": 0,
+        "top_node": "thomasheavey",
+        "avg_degree": 2.0,
+        "bridges": [
+          [
+            "thomasheavey",
+            2
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "14": {
+        "size": 8,
+        "density": 0,
+        "top_node": "quangngd",
+        "avg_degree": 1.0,
+        "bridges": [
+          [
+            "quangngd",
+            1
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "15": {
+        "size": 11,
+        "density": 0,
+        "top_node": "adrinjalali",
+        "avg_degree": 4.0,
+        "bridges": [
+          [
+            "adrinjalali",
+            2
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "16": {
+        "size": 16,
+        "density": 0,
+        "top_node": "scikit-learn-bot",
+        "avg_degree": 14.0,
+        "bridges": [
+          [
+            "scikit-learn-bot",
+            6
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "17": {
+        "size": 7,
+        "density": 0,
+        "top_node": "betatim",
+        "avg_degree": 2.0,
+        "bridges": [
+          [
+            "betatim",
+            1
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "18": {
+        "size": 7,
+        "density": 0,
+        "top_node": "ogrisel",
+        "avg_degree": 4.0,
+        "bridges": [
+          [
+            "ogrisel",
+            3
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "19": {
+        "size": 10,
+        "density": 0,
+        "top_node": "jeremiedbb",
+        "avg_degree": 2.0,
+        "bridges": [
+          [
+            "jeremiedbb",
+            2
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "20": {
+        "size": 11,
+        "density": 0,
+        "top_node": "lockfilebot",
+        "avg_degree": 10.0,
+        "bridges": [
+          [
+            "lockfilebot",
+            4
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "21": {
+        "size": 13,
+        "density": 0,
+        "top_node": "oliviergrisel",
+        "avg_degree": 3.0,
+        "bridges": [
+          [
+            "oliviergrisel",
+            3
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "22": {
+        "size": 18,
+        "density": 0,
+        "top_node": "christianlorentzen",
+        "avg_degree": 3.0,
+        "bridges": [
+          [
+            "christianlorentzen",
+            3
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "23": {
+        "size": 12,
+        "density": 0,
+        "top_node": "mohamedyaich",
+        "avg_degree": 3.0,
+        "bridges": [
+          [
+            "mohamedyaich",
+            3
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "24": {
+        "size": 6,
+        "density": 0,
+        "top_node": "yaichm",
+        "avg_degree": 3.0,
+        "bridges": [
+          [
+            "yaichm",
+            3
+          ]
+        ],
+        "cohesion": 0.0
+      },
+      "25": {
+        "size": 22,
+        "density": 0,
+        "top_node": "j\u00e9r\u00e9mieduboisberranger",
+        "avg_degree": 3.0,
+        "bridges": [
+          [
+            "j\u00e9r\u00e9mieduboisberranger",
+            3
+          ]
+        ],
+        "cohesion": 0.0
+      }
+    },
+    "cross_community_influencers": []
+  },
+  "temporal_analysis": {
+    "window_stats": [
+      {
+        "window_start": "2025-04-28 16:45:32+00:00",
+        "window_end": "2025-04-29 20:37:25.166666666+00:00",
+        "nodes": 4,
+        "edges": 3,
+        "too_small": true
+      },
+      {
+        "window_start": "2025-04-29 20:37:25.166666666+00:00",
+        "window_end": "2025-05-01 00:29:18.333333332+00:00",
+        "nodes": 2,
+        "edges": 1,
+        "too_small": true
+      },
+      {
+        "window_start": "2025-05-01 00:29:18.333333332+00:00",
+        "window_end": "2025-05-02 04:21:11.499999998+00:00",
+        "nodes": 2,
+        "edges": 1,
+        "too_small": true
+      },
+      {
+        "window_start": "2025-05-02 04:21:11.499999998+00:00",
+        "window_end": "2025-05-03 08:13:04.666666664+00:00",
+        "nodes": 3,
+        "edges": 2,
+        "too_small": true
+      },
+      {
+        "window_start": "2025-05-03 08:13:04.666666664+00:00",
+        "window_end": "2025-05-04 12:04:57.833333330+00:00",
+        "nodes": 11,
+        "edges": 11,
+        "density": 0.2,
+        "avg_clustering": 0.18434343434343434,
+        "modularity": 0.2729591836734693,
+        "communities": 3,
+        "too_small": false
+      },
+      {
+        "window_start": "2025-05-04 12:04:57.833333330+00:00",
+        "window_end": "2025-05-05 15:56:50.999999996+00:00",
+        "nodes": 6,
+        "edges": 4,
+        "too_small": true
+      }
+    ],
+    "community_migrants": [
+      {
+        "node": "h",
+        "changes": [
+          [
+            4,
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            4,
+            1,
+            5
+          ],
+          [
+            4,
+            4,
+            5,
+            6
+          ],
+          [
+            4,
+            4,
+            6,
+            7
+          ],
+          [
+            4,
+            4,
+            7,
+            8
+          ],
+          [
+            4,
+            4,
+            8,
+            10
+          ]
+        ]
+      },
+      {
+        "node": "a",
+        "changes": [
+          [
+            4,
+            4,
+            1,
+            2
+          ],
+          [
+            4,
+            4,
+            2,
+            4
+          ],
+          [
+            4,
+            4,
+            4,
+            6
+          ],
+          [
+            4,
+            4,
+            6,
+            7
+          ],
+          [
+            4,
+            4,
+            7,
+            9
+          ],
+          [
+            4,
+            4,
+            9,
+            10
+          ]
+        ]
+      },
+      {
+        "node": "e",
+        "changes": [
+          [
+            4,
+            4,
+            3,
+            4
+          ],
+          [
+            4,
+            4,
+            4,
+            5
+          ],
+          [
+            4,
+            4,
+            5,
+            6
+          ],
+          [
+            4,
+            4,
+            6,
+            7
+          ],
+          [
+            4,
+            4,
+            7,
+            8
+          ],
+          [
+            4,
+            4,
+            8,
+            9
+          ]
+        ]
+      },
+      {
+        "node": "n",
+        "changes": [
+          [
+            4,
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            4,
+            1,
+            2
+          ],
+          [
+            4,
+            4,
+            2,
+            4
+          ],
+          [
+            4,
+            4,
+            4,
+            8
+          ],
+          [
+            4,
+            4,
+            8,
+            9
+          ]
+        ]
+      },
+      {
+        "node": "o",
+        "changes": [
+          [
+            4,
+            4,
+            1,
+            3
+          ],
+          [
+            4,
+            4,
+            3,
+            4
+          ],
+          [
+            4,
+            4,
+            4,
+            5
+          ],
+          [
+            4,
+            4,
+            5,
+            7
+          ],
+          [
+            4,
+            4,
+            7,
+            9
+          ]
+        ]
+      },
+      {
+        "node": "d",
+        "changes": [
+          [
+            4,
+            4,
+            1,
+            2
+          ],
+          [
+            4,
+            4,
+            2,
+            4
+          ],
+          [
+            4,
+            4,
+            4,
+            9
+          ],
+          [
+            4,
+            4,
+            9,
+            10
+          ]
+        ]
+      },
+      {
+        "node": "t",
+        "changes": [
+          [
+            4,
+            4,
+            1,
+            4
+          ],
+          [
+            4,
+            4,
+            4,
+            6
+          ],
+          [
+            4,
+            4,
+            6,
+            7
+          ],
+          [
+            4,
+            4,
+            7,
+            9
+          ]
+        ]
+      },
+      {
+        "node": "s",
+        "changes": [
+          [
+            4,
+            4,
+            1,
+            4
+          ],
+          [
+            4,
+            4,
+            4,
+            5
+          ],
+          [
+            4,
+            4,
+            5,
+            7
+          ],
+          [
+            4,
+            4,
+            7,
+            10
+          ]
+        ]
+      },
+      {
+        "node": "c",
+        "changes": [
+          [
+            4,
+            4,
+            0,
+            5
+          ],
+          [
+            4,
+            4,
+            5,
+            8
+          ],
+          [
+            4,
+            4,
+            8,
+            10
+          ]
+        ]
+      },
+      {
+        "node": "i",
+        "changes": [
+          [
+            4,
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            4,
+            1,
+            4
+          ],
+          [
+            4,
+            4,
+            4,
+            8
+          ]
+        ]
+      },
+      {
+        "node": "l",
+        "changes": [
+          [
+            4,
+            4,
+            0,
+            3
+          ],
+          [
+            4,
+            4,
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "node": "p",
+        "changes": [
+          [
+            4,
+            4,
+            1,
+            4
+          ],
+          [
+            4,
+            4,
+            4,
+            9
+          ]
+        ]
+      },
+      {
+        "node": "y",
+        "changes": [
+          [
+            4,
+            4,
+            1,
+            6
+          ],
+          [
+            4,
+            4,
+            6,
+            7
+          ]
+        ]
+      },
+      {
+        "node": "r",
+        "changes": [
+          [
+            4,
+            4,
+            4,
+            5
+          ],
+          [
+            4,
+            4,
+            5,
+            10
+          ]
+        ]
+      },
+      {
+        "node": "b",
+        "changes": [
+          [
+            4,
+            4,
+            3,
+            9
+          ]
+        ]
+      },
+      {
+        "node": "m",
+        "changes": [
+          [
+            4,
+            4,
+            5,
+            7
+          ]
+        ]
+      },
+      {
+        "node": "v",
+        "changes": [
+          [
+            4,
+            4,
+            6,
+            7
+          ]
+        ]
+      }
+    ],
+    "community_stability": [],
+    "influencer_consistency": {
+      "degree": [
+        [
+          "web-flow",
+          1.0
+        ],
+        [
+          "chilin",
+          1.0
+        ],
+        [
+          "mroeschke",
+          1.0
+        ],
+        [
+          "datapythonista",
+          1.0
+        ],
+        [
+          "theavey",
+          1.0
+        ]
+      ],
+      "betweenness": [
+        [
+          "web-flow",
+          1.0
+        ],
+        [
+          "chilin",
+          1.0
+        ],
+        [
+          "datapythonista",
+          1.0
+        ],
+        [
+          "quangngd",
+          1.0
+        ],
+        [
+          "danielpintosalazar",
+          1.0
+        ]
+      ],
+      "eigenvector": [
+        [
+          "web-flow",
+          1.0
+        ],
+        [
+          "mroeschke",
+          1.0
+        ],
+        [
+          "theavey",
+          1.0
+        ],
+        [
+          "thomasheavey",
+          1.0
+        ],
+        [
+          "chilin",
+          1.0
+        ]
+      ]
+    },
+    "noteworthy_events": []
+  },
+  "governance_toolkit": {
+    "growth_strategies": [
+      {
+        "title": "Convert peripheral contributors to regular contributors",
+        "description": "Your network has a large periphery of occasional contributors that could become more engaged.",
+        "actions": [
+          "Create 'Second Contribution' incentives like badges or recognition",
+          "Actively reach out to one-time contributors with specific follow-up tasks",
+          "Track and reduce the 'time to first feedback' for newcomer contributions",
+          "Set up automated first-issue suggestions for new contributors based on their initial work"
+        ],
+        "rationale": "Network has 5 peripheral nodes vs. 0 core nodes; research shows contributors who make a second contribution within 48 hours are much more likely to become regulars"
+      }
+    ],
+    "conflict_management": [],
+    "knowledge_sharing": [
+      {
+        "title": "Reduce bus factor risk",
+        "description": "Your project shows high dependence on a small number of key contributors, creating risk if these individuals become unavailable.",
+        "actions": [
+          "Create CODEOWNERS files that require multiple reviewers",
+          "Implement pair programming or shadowing for critical subsystems",
+          "Document architectural decisions and implicit knowledge",
+          "Create onboarding paths to critical subsystems with graduated responsibility"
+        ],
+        "rationale": "Network centrality shows top 3 contributors are involved in 65.9% of all collaborations"
+      }
+    ],
+    "retention_strategies": [],
+    "decision_making": [
+      {
+        "title": "Improve cross-community decision coordination",
+        "description": "Your project has communities with limited external connections, which can lead to misaligned decisions and duplicated work.",
+        "actions": [
+          "Create a cross-community architecture council",
+          "Implement project-wide RFC processes for significant changes",
+          "Establish regular cross-community sync meetings",
+          "Create shared roadmaps with explicit cross-community dependencies"
+        ],
+        "rationale": "Network analysis identified 26 communities with limited bridges to other groups"
+      }
+    ],
+    "report": "# OSS Project Governance Toolkit\n\n## Executive Summary\n\nBased on comprehensive network analysis of your project's collaboration patterns, these are the top recommended strategies for enhancing project governance:\n\n1. **Growth Strategies**: Convert peripheral contributors to regular contributors - Your network has a large periphery of occasional contributors that could become more engaged.\n\n2. **Knowledge Sharing**: Reduce bus factor risk - Your project shows high dependence on a small number of key contributors, creating risk if these individuals become unavailable.\n\n3. **Decision Making**: Improve cross-community decision coordination - Your project has communities with limited external connections, which can lead to misaligned decisions and duplicated work.\n\n## Growth Strategies\n\n### 1. Convert peripheral contributors to regular contributors\n\nYour network has a large periphery of occasional contributors that could become more engaged.\n\n**Recommended Actions:**\n\n- Create 'Second Contribution' incentives like badges or recognition\n- Actively reach out to one-time contributors with specific follow-up tasks\n- Track and reduce the 'time to first feedback' for newcomer contributions\n- Set up automated first-issue suggestions for new contributors based on their initial work\n\n**Rationale:** Network has 5 peripheral nodes vs. 0 core nodes; research shows contributors who make a second contribution within 48 hours are much more likely to become regulars\n\n## Knowledge Sharing\n\n### 1. Reduce bus factor risk\n\nYour project shows high dependence on a small number of key contributors, creating risk if these individuals become unavailable.\n\n**Recommended Actions:**\n\n- Create CODEOWNERS files that require multiple reviewers\n- Implement pair programming or shadowing for critical subsystems\n- Document architectural decisions and implicit knowledge\n- Create onboarding paths to critical subsystems with graduated responsibility\n\n**Rationale:** Network centrality shows top 3 contributors are involved in 65.9% of all collaborations\n\n## Decision Making\n\n### 1. Improve cross-community decision coordination\n\nYour project has communities with limited external connections, which can lead to misaligned decisions and duplicated work.\n\n**Recommended Actions:**\n\n- Create a cross-community architecture council\n- Implement project-wide RFC processes for significant changes\n- Establish regular cross-community sync meetings\n- Create shared roadmaps with explicit cross-community dependencies\n\n**Rationale:** Network analysis identified 26 communities with limited bridges to other groups\n\n"
+  },
+  "influencer_report": "# Key Influencers Analysis\n\n## Project Influence Landscape\n\n### Most Connected Contributors\n\nThese contributors collaborate with the most people:\n\n1. **web-flow** - Connected to 30 contributors\n2. **scikit-learn-bot** - Connected to 14 contributors\n3. **lockfilebot** - Connected to 10 contributors\n4. **mroeschke** - Connected to 7 contributors\n5. **dependabot[bot]** - Connected to 7 contributors\n6. **lucyleeow** - Connected to 4 contributors\n7. **adrinjalali** - Connected to 4 contributors\n8. **ogrisel** - Connected to 4 contributors\n9. **theavey** - Connected to 3 contributors\n10. **chilin** - Connected to 3 contributors\n\n### Bridge Contributors\n\nThese contributors connect different parts of the project:\n\n1. **web-flow** - Betweenness centrality: 0.85\n2. **lucyleeow** - Betweenness centrality: 0.11\n3. **oliviergrisel** - Betweenness centrality: 0.10\n4. **j\u00e9r\u00e9mieduboisberranger** - Betweenness centrality: 0.10\n5. **mroeschke** - Betweenness centrality: 0.10\n6. **scikit-learn-bot** - Betweenness centrality: 0.08\n7. **chilin** - Betweenness centrality: 0.08\n8. **theavey** - Betweenness centrality: 0.07\n9. **dependabot[bot]** - Betweenness centrality: 0.06\n10. **danielpintosalazar** - Betweenness centrality: 0.06\n\n### Core Contributors\n\nThese contributors are connected to other well-connected contributors:\n\n1. **web-flow** - Eigenvector centrality: 0.59\n2. **scikit-learn-bot** - Eigenvector centrality: 0.48\n3. **lockfilebot** - Eigenvector centrality: 0.44\n4. **mroeschke** - Eigenvector centrality: 0.21\n5. **dependabot[bot]** - Eigenvector centrality: 0.17\n6. **ogrisel** - Eigenvector centrality: 0.16\n7. **oliviergrisel** - Eigenvector centrality: 0.15\n8. **j\u00e9r\u00e9mieduboisberranger** - Eigenvector centrality: 0.15\n9. **lucyleeow** - Eigenvector centrality: 0.12\n10. **adrinjalali** - Eigenvector centrality: 0.11\n\n## Cross-Community Influencers\n\nThese contributors bridge multiple communities and transfer knowledge:\n\n\n## Recommendations for Influencer Management\n\n1. **Recognize and Support Key Contributors**\n   - Acknowledge top contributors publicly\n   - Provide resources and support to prevent burnout\n\n2. **Bridge Knowledge Gaps**\n   - Encourage cross-community influencers to document interfaces\n   - Create formal knowledge transfer processes\n\n3. **Develop New Influencers**\n   - Identify potential new bridge and hub contributors\n   - Create mentorship relationships between established and emerging influencers\n\n4. **Reduce Bus Factor Risk**\n   - Distribute critical knowledge across multiple contributors\n   - Implement 'Shadow Maintainer' roles for bus factor reduction\n\n5. **Optimize Communication Channels**\n   - Ensure bridge contributors have effective ways to share information\n   - Create dedicated channels for cross-community coordination\n",
+  "community_health_report": "# Community Health and Evolution Report\n\n## Community Structure Overview\n\nThe project contains 26 distinct contributor communities.\n\n- **Largest community**: 22 contributors\n- **Smallest community**: 6 contributors\n- **Average community size**: 10.8 contributors\n\n### Community Profiles\n\n| Community | Size | Density | Cohesion | Top Contributor |\n|-----------|------|---------|----------|----------------|\n| C25 | 22 | 0.00 | 0.00 | Unknown |\n| C4 | 18 | 0.00 | 0.00 | Unknown |\n| C22 | 18 | 0.00 | 0.00 | Unknown |\n| C16 | 16 | 0.00 | 0.00 | Unknown |\n| C2 | 15 | 0.00 | 0.00 | Unknown |\n| C9 | 14 | 0.00 | 0.00 | Unknown |\n| C21 | 13 | 0.00 | 0.00 | Unknown |\n| C13 | 12 | 0.00 | 0.00 | Unknown |\n| C23 | 12 | 0.00 | 0.00 | Unknown |\n| C5 | 11 | 0.00 | 0.00 | Unknown |\n| C15 | 11 | 0.00 | 0.00 | Unknown |\n| C20 | 11 | 0.00 | 0.00 | Unknown |\n| C10 | 10 | 0.00 | 0.00 | Unknown |\n| C19 | 10 | 0.00 | 0.00 | Unknown |\n| C1 | 9 | 0.00 | 0.00 | Unknown |\n| C6 | 9 | 0.00 | 0.00 | Unknown |\n| C11 | 8 | 0.00 | 0.00 | Unknown |\n| C14 | 8 | 0.00 | 0.00 | Unknown |\n| C0 | 7 | 0.00 | 0.00 | Unknown |\n| C3 | 7 | 0.00 | 0.00 | Unknown |\n| C7 | 7 | 0.00 | 0.00 | Unknown |\n| C12 | 7 | 0.00 | 0.00 | Unknown |\n| C17 | 7 | 0.00 | 0.00 | Unknown |\n| C18 | 7 | 0.00 | 0.00 | Unknown |\n| C8 | 6 | 0.00 | 0.00 | Unknown |\n| C24 | 6 | 0.00 | 0.00 | Unknown |\n\n## Community Health Indicators\n\n## Recommendations for Community Health Improvement\n\n### 1. Improve Cross-Community Collaboration\n\nEnhance knowledge sharing between different community clusters by organizing cross-team events and projects.\n\n**Suggested Actions:**\n\n- Implement regular cross-community review sessions\n- Create shared documentation repositories\n- Assign 'diplomats' to bridge community gaps\n\n### 2. Strengthen Onboarding Process\n\nDevelop a more structured onboarding process to help new contributors integrate into the community faster.\n\n**Suggested Actions:**\n\n- Create a mentorship program pairing new contributors with experienced ones\n- Identify and tag 'good first issues' for newcomers\n- Develop interactive onboarding documentation\n\n### 3. Reduce Dependency on Key Contributors\n\nDistribute knowledge and responsibilities to reduce the risk associated with high bus factor.\n\n**Suggested Actions:**\n\n- Implement pair programming or review practices\n- Document critical processes and knowledge areas\n- Rotate leadership roles for key community activities\n\n",
+  "governance_recommendations_report": "# Project Governance Recommendations\n\nBased on comprehensive network analysis of a **medium** project with **moderately centralized** contributor structure and **weak community structure**, the following governance recommendations are provided:\n\n## Recommended Governance Model\n\n### Meritocratic\n\nDecision-making authority is earned through consistent quality contributions.\n\n## Governance Structure Implementation\n\n### Decision-Making Process\n\n- Tiered voting rights based on contribution history\n- Core team approval required for architectural changes\n- Open discussion period followed by maintainer decision\n- Path for non-maintainers to propose significant changes\n\n### Roles and Responsibilities\n\n#### Core Project Roles\n\n| Role | Responsibilities | Selection Process |\n|------|------------------|-------------------|\n| Core Team | Architecture decisions, roadmap planning | Meritocracy-based promotion |\n| Maintainer | Subsystem ownership, code review | Appointed by Core Team |\n| Regular Contributor | Feature development, bug fixes | Self-selected |\n| Community Manager | Outreach, community health | Appointed or elected |\n\n### Communication Structure\n\n#### Recommended Communication Channels\n\n| Channel | Purpose | Frequency |\n|---------|---------|-----------|\n| Team chat | Daily coordination | Ongoing |\n| Maintainer meeting | Strategic planning | Biweekly |\n| Community call | Updates, demos | Monthly |\n| Mailing list | Major announcements | As needed |\n\n### Conflict Resolution Process\n\n1. **Direct discussion**: Involved parties attempt to resolve directly\n2. **Maintainer mediation**: Area maintainer facilitates resolution\n3. **Community discussion**: Time-boxed public discussion\n4. **Core team vote**: Final resolution if needed\n\n### Contribution Workflow\n\n#### Recommended Process\n\n1. **Issue creation** - Document the problem/feature\n2. **Discussion** - Gather feedback on approach\n3. **Implementation** - Create the change with tests\n4. **Review** - Peer review and approval\n5. **Integration** - Merge and release planning\n\n#### Review Requirements\n\n- At least two approvals including one from component maintainer\n- Architectural council review for cross-cutting concerns\n\n",
+  "influencer_network_fig": "Figure(1600x1200)"
+}
